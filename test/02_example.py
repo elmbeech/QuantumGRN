@@ -1,7 +1,7 @@
 import os
 import numpy as np
 import pandas as pd
-from qscgrn import *
+from qscgrn import *  # "quantum_circuit", "model", "theta_init", "edges_init", "qsc_order_gene", "qsc_distribution", "qsc_activation_ratios", "mini_hist", "comparison_hist", "draw_network"
 
 path = os.getcwd()
 filename="../dataset/expr_matrix_pearsonresidual_7.txt"
